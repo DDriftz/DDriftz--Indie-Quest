@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DataStructuresArrays101/1.0.0": {
+        "runtime": {
+          "DataStructuresArrays101.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataStructuresArrays101/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

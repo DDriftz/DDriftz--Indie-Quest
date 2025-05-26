@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\obj\Debug\net9.0\GenerateCharactersAndMonsters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\obj\Debug\net9.0\GenerateCharactersAndMonsters.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\obj\Debug\net9.0\GenerateCharactersAndMonsters.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\obj\Debug\net9.0\GenerateCharactersAndMonsters.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\bin\Debug\net9.0\GenerateCharactersAndMonsters.exe
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\bin\Debug\net9.0\GenerateCharactersAndMonsters.deps.json
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\bin\Debug\net9.0\GenerateCharactersAndMonsters.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\bin\Debug\net9.0\GenerateCharactersAndMonsters.dll
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\bin\Debug\net9.0\GenerateCharactersAndMonsters.pdb
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\obj\Debug\net9.0\GenerateCharactersAndMonsters.dll
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\obj\Debug\net9.0\refint\GenerateCharactersAndMonsters.dll
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\obj\Debug\net9.0\GenerateCharactersAndMonsters.pdb
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\obj\Debug\net9.0\GenerateCharactersAndMonsters.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\C#\GenerateCharactersAndMonsters\obj\Debug\net9.0\ref\GenerateCharactersAndMonsters.dll

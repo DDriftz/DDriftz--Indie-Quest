@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\obj\Debug\net9.0\DataStructuresArrays102.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\obj\Debug\net9.0\DataStructuresArrays102.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\obj\Debug\net9.0\DataStructuresArrays102.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\obj\Debug\net9.0\DataStructuresArrays102.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\bin\Debug\net9.0\DataStructuresArrays102.exe
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\bin\Debug\net9.0\DataStructuresArrays102.deps.json
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\bin\Debug\net9.0\DataStructuresArrays102.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\bin\Debug\net9.0\DataStructuresArrays102.dll
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\bin\Debug\net9.0\DataStructuresArrays102.pdb
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\obj\Debug\net9.0\DataStructuresArrays102.dll
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\obj\Debug\net9.0\refint\DataStructuresArrays102.dll
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\obj\Debug\net9.0\DataStructuresArrays102.pdb
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\obj\Debug\net9.0\DataStructuresArrays102.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\C#\DataStructuresArrays102\obj\Debug\net9.0\ref\DataStructuresArrays102.dll

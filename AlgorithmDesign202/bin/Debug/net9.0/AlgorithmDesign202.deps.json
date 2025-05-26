@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "AlgorithmDesign202/1.0.0": {
+        "runtime": {
+          "AlgorithmDesign202.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AlgorithmDesign202/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

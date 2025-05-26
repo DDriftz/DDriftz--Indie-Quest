@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\bin\Debug\net9.0\TankBoss.exe
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\bin\Debug\net9.0\TankBoss.deps.json
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\bin\Debug\net9.0\TankBoss.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\bin\Debug\net9.0\TankBoss.dll
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\bin\Debug\net9.0\TankBoss.pdb
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\obj\Debug\net9.0\TankBoss.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\obj\Debug\net9.0\TankBoss.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\obj\Debug\net9.0\TankBoss.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\obj\Debug\net9.0\TankBoss.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\obj\Debug\net9.0\TankBoss.dll
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\obj\Debug\net9.0\refint\TankBoss.dll
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\obj\Debug\net9.0\TankBoss.pdb
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\obj\Debug\net9.0\TankBoss.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\C#\TankBoss\obj\Debug\net9.0\ref\TankBoss.dll

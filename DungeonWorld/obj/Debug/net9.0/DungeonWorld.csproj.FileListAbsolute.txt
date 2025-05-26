@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\DungeonWorld\bin\Debug\net9.0\DungeonWorld.exe
+C:\Users\Hussein Mohammed Ali\DungeonWorld\bin\Debug\net9.0\DungeonWorld.deps.json
+C:\Users\Hussein Mohammed Ali\DungeonWorld\bin\Debug\net9.0\DungeonWorld.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\DungeonWorld\bin\Debug\net9.0\DungeonWorld.dll
+C:\Users\Hussein Mohammed Ali\DungeonWorld\bin\Debug\net9.0\DungeonWorld.pdb
+C:\Users\Hussein Mohammed Ali\DungeonWorld\obj\Debug\net9.0\DungeonWorld.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\DungeonWorld\obj\Debug\net9.0\DungeonWorld.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\DungeonWorld\obj\Debug\net9.0\DungeonWorld.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\DungeonWorld\obj\Debug\net9.0\DungeonWorld.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\DungeonWorld\obj\Debug\net9.0\DungeonWorld.dll
+C:\Users\Hussein Mohammed Ali\DungeonWorld\obj\Debug\net9.0\refint\DungeonWorld.dll
+C:\Users\Hussein Mohammed Ali\DungeonWorld\obj\Debug\net9.0\DungeonWorld.pdb
+C:\Users\Hussein Mohammed Ali\DungeonWorld\obj\Debug\net9.0\DungeonWorld.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\DungeonWorld\obj\Debug\net9.0\ref\DungeonWorld.dll

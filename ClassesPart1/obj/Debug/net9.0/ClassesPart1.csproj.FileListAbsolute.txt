@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\bin\Debug\net9.0\ClassesPart1.exe
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\bin\Debug\net9.0\ClassesPart1.deps.json
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\bin\Debug\net9.0\ClassesPart1.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\bin\Debug\net9.0\ClassesPart1.dll
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\bin\Debug\net9.0\ClassesPart1.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\obj\Debug\net9.0\ClassesPart1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\obj\Debug\net9.0\ClassesPart1.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\obj\Debug\net9.0\ClassesPart1.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\obj\Debug\net9.0\ClassesPart1.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\obj\Debug\net9.0\ClassesPart1.dll
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\obj\Debug\net9.0\refint\ClassesPart1.dll
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\obj\Debug\net9.0\ClassesPart1.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\obj\Debug\net9.0\ClassesPart1.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\ClassesPart1\obj\Debug\net9.0\ref\ClassesPart1.dll

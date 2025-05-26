@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "36WuYCX2amQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hussein Mohammed Ali\\C#\\LoopsPractice2\\LoopsPractice2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hussein Mohammed Ali\\.nuget\\packages\\microsoft.win32.systemevents\\9.0.2\\microsoft.win32.systemevents.9.0.2.nupkg.sha512",
+    "C:\\Users\\Hussein Mohammed Ali\\.nuget\\packages\\system.drawing.common\\9.0.2\\system.drawing.common.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

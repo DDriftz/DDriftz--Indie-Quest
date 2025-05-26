@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\bin\Debug\net9.0\RollTillSix.exe
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\bin\Debug\net9.0\RollTillSix.deps.json
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\bin\Debug\net9.0\RollTillSix.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\bin\Debug\net9.0\RollTillSix.dll
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\bin\Debug\net9.0\RollTillSix.pdb
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\obj\Debug\net9.0\RollTillSix.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\obj\Debug\net9.0\RollTillSix.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\obj\Debug\net9.0\RollTillSix.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\obj\Debug\net9.0\RollTillSix.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\obj\Debug\net9.0\RollTillSix.dll
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\obj\Debug\net9.0\refint\RollTillSix.dll
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\obj\Debug\net9.0\RollTillSix.pdb
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\obj\Debug\net9.0\RollTillSix.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\C#\RollTillSix\obj\Debug\net9.0\ref\RollTillSix.dll

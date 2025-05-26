@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\WarriorMage\obj\Debug\net9.0\WarriorMage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\WarriorMage\obj\Debug\net9.0\WarriorMage.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\WarriorMage\obj\Debug\net9.0\WarriorMage.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\WarriorMage\obj\Debug\net9.0\WarriorMage.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\WarriorMage\bin\Debug\net9.0\WarriorMage.exe
+C:\Users\Hussein Mohammed Ali\WarriorMage\bin\Debug\net9.0\WarriorMage.deps.json
+C:\Users\Hussein Mohammed Ali\WarriorMage\bin\Debug\net9.0\WarriorMage.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\WarriorMage\bin\Debug\net9.0\WarriorMage.dll
+C:\Users\Hussein Mohammed Ali\WarriorMage\bin\Debug\net9.0\WarriorMage.pdb
+C:\Users\Hussein Mohammed Ali\WarriorMage\obj\Debug\net9.0\WarriorMage.dll
+C:\Users\Hussein Mohammed Ali\WarriorMage\obj\Debug\net9.0\refint\WarriorMage.dll
+C:\Users\Hussein Mohammed Ali\WarriorMage\obj\Debug\net9.0\WarriorMage.pdb
+C:\Users\Hussein Mohammed Ali\WarriorMage\obj\Debug\net9.0\WarriorMage.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\WarriorMage\obj\Debug\net9.0\ref\WarriorMage.dll

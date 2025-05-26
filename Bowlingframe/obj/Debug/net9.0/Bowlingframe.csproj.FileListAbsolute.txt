@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\Bowlingframe\bin\Debug\net9.0\Bowlingframe.exe
+C:\Users\Hussein Mohammed Ali\Bowlingframe\bin\Debug\net9.0\Bowlingframe.deps.json
+C:\Users\Hussein Mohammed Ali\Bowlingframe\bin\Debug\net9.0\Bowlingframe.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\Bowlingframe\bin\Debug\net9.0\Bowlingframe.dll
+C:\Users\Hussein Mohammed Ali\Bowlingframe\bin\Debug\net9.0\Bowlingframe.pdb
+C:\Users\Hussein Mohammed Ali\Bowlingframe\obj\Debug\net9.0\Bowlingframe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\Bowlingframe\obj\Debug\net9.0\Bowlingframe.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\Bowlingframe\obj\Debug\net9.0\Bowlingframe.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\Bowlingframe\obj\Debug\net9.0\Bowlingframe.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\Bowlingframe\obj\Debug\net9.0\Bowlingframe.dll
+C:\Users\Hussein Mohammed Ali\Bowlingframe\obj\Debug\net9.0\refint\Bowlingframe.dll
+C:\Users\Hussein Mohammed Ali\Bowlingframe\obj\Debug\net9.0\Bowlingframe.pdb
+C:\Users\Hussein Mohammed Ali\Bowlingframe\obj\Debug\net9.0\Bowlingframe.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\Bowlingframe\obj\Debug\net9.0\ref\Bowlingframe.dll

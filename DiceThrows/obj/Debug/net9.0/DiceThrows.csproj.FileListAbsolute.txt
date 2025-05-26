@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\DiceThrows\bin\Debug\net9.0\DiceThrows.exe
+C:\Users\Hussein Mohammed Ali\DiceThrows\bin\Debug\net9.0\DiceThrows.deps.json
+C:\Users\Hussein Mohammed Ali\DiceThrows\bin\Debug\net9.0\DiceThrows.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\DiceThrows\bin\Debug\net9.0\DiceThrows.dll
+C:\Users\Hussein Mohammed Ali\DiceThrows\bin\Debug\net9.0\DiceThrows.pdb
+C:\Users\Hussein Mohammed Ali\DiceThrows\obj\Debug\net9.0\DiceThrows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\DiceThrows\obj\Debug\net9.0\DiceThrows.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\DiceThrows\obj\Debug\net9.0\DiceThrows.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\DiceThrows\obj\Debug\net9.0\DiceThrows.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\DiceThrows\obj\Debug\net9.0\DiceThrows.dll
+C:\Users\Hussein Mohammed Ali\DiceThrows\obj\Debug\net9.0\refint\DiceThrows.dll
+C:\Users\Hussein Mohammed Ali\DiceThrows\obj\Debug\net9.0\DiceThrows.pdb
+C:\Users\Hussein Mohammed Ali\DiceThrows\obj\Debug\net9.0\DiceThrows.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\DiceThrows\obj\Debug\net9.0\ref\DiceThrows.dll

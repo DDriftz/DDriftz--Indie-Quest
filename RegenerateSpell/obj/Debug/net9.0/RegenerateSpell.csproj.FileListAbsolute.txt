@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\bin\Debug\net9.0\RegenerateSpell.exe
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\bin\Debug\net9.0\RegenerateSpell.deps.json
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\bin\Debug\net9.0\RegenerateSpell.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\bin\Debug\net9.0\RegenerateSpell.dll
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\bin\Debug\net9.0\RegenerateSpell.pdb
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\obj\Debug\net9.0\RegenerateSpell.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\obj\Debug\net9.0\RegenerateSpell.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\obj\Debug\net9.0\RegenerateSpell.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\obj\Debug\net9.0\RegenerateSpell.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\obj\Debug\net9.0\RegenerateSpell.dll
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\obj\Debug\net9.0\refint\RegenerateSpell.dll
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\obj\Debug\net9.0\RegenerateSpell.pdb
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\obj\Debug\net9.0\RegenerateSpell.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\C#\RegenerateSpell\obj\Debug\net9.0\ref\RegenerateSpell.dll

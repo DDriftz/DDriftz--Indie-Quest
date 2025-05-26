@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\bin\Debug\net9.0\DataStructuresArrays103Bonus.exe
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\bin\Debug\net9.0\DataStructuresArrays103Bonus.deps.json
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\bin\Debug\net9.0\DataStructuresArrays103Bonus.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\bin\Debug\net9.0\DataStructuresArrays103Bonus.dll
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\bin\Debug\net9.0\DataStructuresArrays103Bonus.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\obj\Debug\net9.0\DataStructuresArrays103Bonus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\obj\Debug\net9.0\DataStructuresArrays103Bonus.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\obj\Debug\net9.0\DataStructuresArrays103Bonus.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\obj\Debug\net9.0\DataStructuresArrays103Bonus.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\obj\Debug\net9.0\DataStructuresArrays103Bonus.dll
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\obj\Debug\net9.0\refint\DataStructuresArrays103Bonus.dll
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\obj\Debug\net9.0\DataStructuresArrays103Bonus.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\obj\Debug\net9.0\DataStructuresArrays103Bonus.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\DataStructuresArrays103Bonus\obj\Debug\net9.0\ref\DataStructuresArrays103Bonus.dll

@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\bin\Debug\net9.0\LoopsPractice.exe
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\bin\Debug\net9.0\LoopsPractice.deps.json
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\bin\Debug\net9.0\LoopsPractice.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\bin\Debug\net9.0\LoopsPractice.dll
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\bin\Debug\net9.0\LoopsPractice.pdb
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\obj\Debug\net9.0\LoopsPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\obj\Debug\net9.0\LoopsPractice.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\obj\Debug\net9.0\LoopsPractice.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\obj\Debug\net9.0\LoopsPractice.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\obj\Debug\net9.0\LoopsPractice.dll
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\obj\Debug\net9.0\refint\LoopsPractice.dll
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\obj\Debug\net9.0\LoopsPractice.pdb
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\obj\Debug\net9.0\LoopsPractice.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\C#\LoopsPractice\obj\Debug\net9.0\ref\LoopsPractice.dll

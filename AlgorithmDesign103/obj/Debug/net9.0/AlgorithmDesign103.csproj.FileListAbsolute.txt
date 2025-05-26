@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\bin\Debug\net9.0\AlgorithmDesign103.exe
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\bin\Debug\net9.0\AlgorithmDesign103.deps.json
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\bin\Debug\net9.0\AlgorithmDesign103.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\bin\Debug\net9.0\AlgorithmDesign103.dll
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\bin\Debug\net9.0\AlgorithmDesign103.pdb
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\obj\Debug\net9.0\AlgorithmDesign103.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\obj\Debug\net9.0\AlgorithmDesign103.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\obj\Debug\net9.0\AlgorithmDesign103.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\obj\Debug\net9.0\AlgorithmDesign103.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\obj\Debug\net9.0\AlgorithmDesign103.dll
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\obj\Debug\net9.0\refint\AlgorithmDesign103.dll
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\obj\Debug\net9.0\AlgorithmDesign103.pdb
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\obj\Debug\net9.0\AlgorithmDesign103.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\C#\AlgorithmDesign103\obj\Debug\net9.0\ref\AlgorithmDesign103.dll

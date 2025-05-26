@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\bin\Debug\net9.0\AlphaCentauri.exe
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\bin\Debug\net9.0\AlphaCentauri.deps.json
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\bin\Debug\net9.0\AlphaCentauri.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\bin\Debug\net9.0\AlphaCentauri.dll
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\bin\Debug\net9.0\AlphaCentauri.pdb
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\obj\Debug\net9.0\AlphaCentauri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\obj\Debug\net9.0\AlphaCentauri.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\obj\Debug\net9.0\AlphaCentauri.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\obj\Debug\net9.0\AlphaCentauri.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\obj\Debug\net9.0\AlphaCentauri.dll
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\obj\Debug\net9.0\refint\AlphaCentauri.dll
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\obj\Debug\net9.0\AlphaCentauri.pdb
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\obj\Debug\net9.0\AlphaCentauri.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\C#\AlphaCentauri\obj\Debug\net9.0\ref\AlphaCentauri.dll

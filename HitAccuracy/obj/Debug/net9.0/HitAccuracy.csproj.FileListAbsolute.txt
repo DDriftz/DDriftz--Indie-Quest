@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\bin\Debug\net9.0\HitAccuracy.exe
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\bin\Debug\net9.0\HitAccuracy.deps.json
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\bin\Debug\net9.0\HitAccuracy.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\bin\Debug\net9.0\HitAccuracy.dll
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\bin\Debug\net9.0\HitAccuracy.pdb
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\obj\Debug\net9.0\HitAccuracy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\obj\Debug\net9.0\HitAccuracy.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\obj\Debug\net9.0\HitAccuracy.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\obj\Debug\net9.0\HitAccuracy.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\obj\Debug\net9.0\HitAccuracy.dll
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\obj\Debug\net9.0\refint\HitAccuracy.dll
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\obj\Debug\net9.0\HitAccuracy.pdb
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\obj\Debug\net9.0\HitAccuracy.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\C#\HitAccuracy\obj\Debug\net9.0\ref\HitAccuracy.dll

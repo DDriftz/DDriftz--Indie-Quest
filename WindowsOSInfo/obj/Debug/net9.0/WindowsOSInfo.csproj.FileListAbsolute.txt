@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\bin\Debug\net9.0\WindowsOSInfo.exe
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\bin\Debug\net9.0\WindowsOSInfo.deps.json
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\bin\Debug\net9.0\WindowsOSInfo.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\bin\Debug\net9.0\WindowsOSInfo.dll
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\bin\Debug\net9.0\WindowsOSInfo.pdb
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\obj\Debug\net9.0\WindowsOSInfo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\obj\Debug\net9.0\WindowsOSInfo.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\obj\Debug\net9.0\WindowsOSInfo.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\obj\Debug\net9.0\WindowsOSInfo.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\obj\Debug\net9.0\WindowsOSInfo.dll
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\obj\Debug\net9.0\refint\WindowsOSInfo.dll
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\obj\Debug\net9.0\WindowsOSInfo.pdb
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\obj\Debug\net9.0\WindowsOSInfo.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\WindowsOSInfo\obj\Debug\net9.0\ref\WindowsOSInfo.dll

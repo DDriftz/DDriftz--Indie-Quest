@@ -1,0 +1,14 @@
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\bin\Debug\net9.0\BowlingFrameRevised.exe
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\bin\Debug\net9.0\BowlingFrameRevised.deps.json
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\bin\Debug\net9.0\BowlingFrameRevised.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\bin\Debug\net9.0\BowlingFrameRevised.dll
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\bin\Debug\net9.0\BowlingFrameRevised.pdb
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\obj\Debug\net9.0\BowlingFrameRevised.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\obj\Debug\net9.0\BowlingFrameRevised.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\obj\Debug\net9.0\BowlingFrameRevised.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\obj\Debug\net9.0\BowlingFrameRevised.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\obj\Debug\net9.0\BowlingFrameRevised.dll
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\obj\Debug\net9.0\refint\BowlingFrameRevised.dll
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\obj\Debug\net9.0\BowlingFrameRevised.pdb
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\obj\Debug\net9.0\BowlingFrameRevised.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\C#\BowlingFrameRevised\obj\Debug\net9.0\ref\BowlingFrameRevised.dll
