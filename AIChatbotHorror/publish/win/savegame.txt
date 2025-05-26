@@ -1,0 +1,1 @@
+{"PlayerName":"Hussein","AwarenessLevel":3,"SanityLevel":100,"Inventory":[],"CurrentRoom":"Lobby","TurnCount":0,"LastRestTurn":-5,"JournalEntries":[]}
