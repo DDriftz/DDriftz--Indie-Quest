@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "RegexUnit3/1.0.0": {
+        "runtime": {
+          "RegexUnit3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RegexUnit3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

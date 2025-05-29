@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Regex\\Regex\\Regex.csproj": {}
+    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Regex\\RegexUnit3\\RegexUnit3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Regex\\Regex\\Regex.csproj": {
+    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Regex\\RegexUnit3\\RegexUnit3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Regex\\Regex\\Regex.csproj",
-        "projectName": "Regex",
-        "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Regex\\Regex\\Regex.csproj",
+        "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Regex\\RegexUnit3\\RegexUnit3.csproj",
+        "projectName": "RegexUnit3",
+        "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Regex\\RegexUnit3\\RegexUnit3.csproj",
         "packagesPath": "C:\\Users\\Hussein Mohammed Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Regex\\Regex\\obj\\",
+        "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Regex\\RegexUnit3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -48,8 +48,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
