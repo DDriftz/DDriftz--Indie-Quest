@@ -1,0 +1,15 @@
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\bin\Debug\net9.0\Enums.exe
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\bin\Debug\net9.0\Enums.deps.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\bin\Debug\net9.0\Enums.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\bin\Debug\net9.0\Enums.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\bin\Debug\net9.0\Enums.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\obj\Debug\net9.0\Enums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\obj\Debug\net9.0\Enums.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\obj\Debug\net9.0\Enums.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\obj\Debug\net9.0\Enums.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\obj\Debug\net9.0\Enums.sourcelink.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\obj\Debug\net9.0\Enums.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\obj\Debug\net9.0\refint\Enums.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\obj\Debug\net9.0\Enums.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\obj\Debug\net9.0\Enums.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Fundamentals\Enums\obj\Debug\net9.0\ref\Enums.dll

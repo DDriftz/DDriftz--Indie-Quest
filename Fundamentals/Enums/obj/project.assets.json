@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\Enums\\Enums.csproj",
+      "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Fundamentals\\Enums\\Enums.csproj",
       "projectName": "Enums",
-      "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\Enums\\Enums.csproj",
+      "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Fundamentals\\Enums\\Enums.csproj",
       "packagesPath": "C:\\Users\\Hussein Mohammed Ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\Enums\\obj\\",
+      "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Fundamentals\\Enums\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
