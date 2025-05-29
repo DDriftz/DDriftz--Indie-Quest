@@ -1,2 +1,0 @@
-C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\SynapseAIChatbotHorrorGame2.0\publish\win\SynapseAIChatbotHorrorGame2.0.pdb
-C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\SynapseAIChatbotHorrorGame2.0\publish\win\SynapseAIChatbotHorrorGame2.0.exe
