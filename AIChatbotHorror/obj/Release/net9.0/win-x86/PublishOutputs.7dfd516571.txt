@@ -1,2 +1,0 @@
-C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\AIChatbotHorror\publish\win\AIChatbotHorror.pdb
-C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\AIChatbotHorror\publish\win\AIChatbotHorror.exe

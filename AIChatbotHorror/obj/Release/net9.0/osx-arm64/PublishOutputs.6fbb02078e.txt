@@ -1,2 +1,0 @@
-C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\AIChatbotHorror\publish\macos-arm64\AIChatbotHorror.pdb
-C:\Users\Hussein Mohammed Ali\Desktop\studier\C#\AIChatbotHorror\publish\macos-arm64\AIChatbotHorror
