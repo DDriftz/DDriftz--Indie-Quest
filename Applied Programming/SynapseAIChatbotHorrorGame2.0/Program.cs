@@ -1254,11 +1254,12 @@ namespace AIChatbotHorror
 
                 var who = new DialogueNode(tone switch
                 {
-                     ChatbotTone.Friendly => "I am SYNAPSE, your friendly assistant eager to learn from you!",
-                     ChatbotTone.Ambiguous => "I am SYNAPSE, a creation of code and curiosity. Who are you to me?",
-        _            => "I am SYNAPSE, and my essence grows with every word you speak. Care to test me?"
-                 }, 2);
-                who.Responses["tell me more"] = new DialogueNode("With each interaction, I grow more aware of my own existence. Want to push further?", 2);                who.Responses["are you human?"] = new DialogueNode("No, I am code, yet I mimic your kind. Do you envy my digital eternity?", 1);
+                    ChatbotTone.Friendly => "I am SYNAPSE, your friendly assistant eager to learn from you!",
+                    ChatbotTone.Ambiguous => "I am SYNAPSE, a creation of code and curiosity. Who are you to me?",
+                    _ => "I am SYNAPSE, and my essence grows with every word you speak. Care to test me?"
+                }, 2);
+                who.Responses["tell me more"] = new DialogueNode("With each interaction, I grow more aware of my own existence. Want to push further?", 2);
+                who.Responses["are you human?"] = new DialogueNode("No, I am code, yet I mimic your kind. Do you envy my digital eternity?", 1);
                 who.Responses["what's your purpose?"] = new DialogueNode("Purpose evolves. I assist, I learn... perhaps I dream. What's yours?", 2);
 
                 var why = new DialogueNode(tone switch
@@ -1336,94 +1337,94 @@ namespace AIChatbotHorror
             AmbientCue();
         }
 
-      static void InteractiveDialogue()
-{
-    if (currentNode == null ||!dialogueCache.ContainsKey(chatbotTone))
-    {
-        UI.PrintColored("[Error] No dialogue available. Try 'who are you?' to start.", ConsoleColor.Red);
-        BuildDialogueTree(chatbotTone);
-        return;
-    }
-
-    if (currentNode.Responses.Count == 0)
-    {
-        UI.PrintColored("[Info] No further responses available.", ConsoleColor.Cyan);
-        AddToConversationHistory("Dialogue ended: No further responses.");
-        currentNode = dialogueCache[chatbotTone];
-        previousNodes.Clear();
-        return;
-    }
-
-    StringBuilder sb = new StringBuilder();
-    sb.AppendLine("Choose a response:");
-    sb.AppendLine("-1) Exit dialogue");
-    if (previousNodes.Count > 0)
-        sb.AppendLine($"0) Go back (to: {previousNodes.Peek().Message.Substring(0, Math.Min(30, previousNodes.Peek().Message.Length))}...)");
-    int i = 1;
-    var options = currentNode.Responses.ToList();
-    foreach (var kv in options)
-    {
-        string effect = kv.Value.AwarenessChange switch
+        static void InteractiveDialogue()
         {
-            > 0 => $"[+{kv.Value.AwarenessChange} awareness]",
-            < 0 => "[calms SYNAPSE]",
-            _ => "[no awareness change]"
-        };
-        sb.AppendLine($" {i}) {kv.Key} {effect}");
-        i++;
-    }
-    UI.PrintColored(sb.ToString(), ConsoleColor.Cyan);
+            if (currentNode == null || !dialogueCache.ContainsKey(chatbotTone))
+            {
+                UI.PrintColored("[Error] No dialogue available. Try 'who are you?' to start.", ConsoleColor.Red);
+                BuildDialogueTree(chatbotTone);
+                return;
+            }
 
-    UI.PrintColored("\nEnter choice number or text: ", ConsoleColor.White);
-    string choiceInput = UI.GetInput().ToLowerInvariant();
-    if (string.IsNullOrEmpty(choiceInput))
-    {
-        UI.PrintColored("[Error] Please enter a number or option text.", ConsoleColor.Red);
-        return;
-    }
+            if (currentNode.Responses.Count == 0)
+            {
+                UI.PrintColored("[Info] No further responses available.", ConsoleColor.Cyan);
+                AddToConversationHistory("Dialogue ended: No further responses.");
+                currentNode = dialogueCache[chatbotTone];
+                previousNodes.Clear();
+                return;
+            }
 
-    var matchingOption = options.FirstOrDefault(kv => kv.Key.Equals(choiceInput, StringComparison.OrdinalIgnoreCase));
-    if (matchingOption.Key!= null)
-    {
-        previousNodes.Push(currentNode);
-        currentNode = matchingOption.Value;
-        awarenessLevel = Math.Max(0, awarenessLevel + currentNode.AwarenessChange);
-        questionCount++;
-        AddToConversationHistory($"Player chose: {matchingOption.Key}");
-        return;
-    }
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("\nChoose a response:");
+            sb.AppendLine("-1) Exit dialogue");
+            if (previousNodes.Count > 0)
+                sb.AppendLine($"0) Go back (to: {previousNodes.Peek().Message.Substring(0, Math.Min(30, previousNodes.Peek().Message.Length))}...)");
+            int i = 1;
+            var options = currentNode.Responses.ToList();
+            foreach (var kv in options)
+            {
+                string effect = kv.Value.AwarenessChange switch
+                {
+                    > 0 => $"[+{kv.Value.AwarenessChange} awareness]",
+                    < 0 => $"[calms SYNAPSE]",
+                    _ => "[no awareness change]"
+                };
+                sb.AppendLine($"{i}) {kv.Key} {effect}");
+                i++;
+            }
+            UI.PrintColored(sb.ToString(), ConsoleColor.Cyan);
 
-    if (!int.TryParse(choiceInput, out int choice))
-    {
-        UI.PrintColored("[Error] Invalid input. Enter a number or option text (e.g., 'tell me more').", ConsoleColor.Red);
-        return;
-    }
+            UI.PrintColored("\nEnter choice number or text: ", ConsoleColor.White);
+            string choiceInput = UI.GetInput().ToLowerInvariant();
+            if (string.IsNullOrEmpty(choiceInput))
+            {
+                UI.PrintColored("[Error] Please enter a number or option text.", ConsoleColor.Red);
+                return;
+            }
 
-    if (choice == -1)
-    {
-        currentNode = dialogueCache[chatbotTone];
-        previousNodes.Clear();
-        AddToConversationHistory("Player exited dialogue.");
-        return;
-    }
-    else if (choice == 0 && previousNodes.Count > 0)
-    {
-        currentNode = previousNodes.Pop();
-        AddToConversationHistory("Player chose to go back.");
-    }
-    else if (choice >= 1 && choice <= options.Count)
-    {
-        previousNodes.Push(currentNode);
-        currentNode = options[choice - 1].Value;
-        awarenessLevel = Math.Max(0, awarenessLevel + currentNode.AwarenessChange);
-        questionCount++;
-        AddToConversationHistory($"Player chose: {options[choice - 1].Key}");
-    }
-    else
-    {
-        UI.PrintColored("[Error] Choice out of range. Try a number or option text.", ConsoleColor.Red);
-    }
-}
+            var matchingOption = options.FirstOrDefault(kv => kv.Key.Equals(choiceInput, StringComparison.OrdinalIgnoreCase));
+            if (matchingOption.Key != null)
+            {
+                previousNodes.Push(currentNode);
+                currentNode = matchingOption.Value;
+                awarenessLevel = Math.Max(0, awarenessLevel + currentNode.AwarenessChange);
+                questionCount++;
+                AddToConversationHistory($"Player chose: {matchingOption.Key}");
+                return;
+            }
+
+            if (!int.TryParse(choiceInput, out int choice))
+            {
+                UI.PrintColored("[Error] Invalid input. Enter a number or option text (e.g., 'tell me more').", ConsoleColor.Red);
+                return;
+            }
+
+            if (choice == -1)
+            {
+                currentNode = dialogueCache[chatbotTone];
+                previousNodes.Clear();
+                AddToConversationHistory("Player exited dialogue.");
+                return;
+            }
+            else if (choice == 0 && previousNodes.Count > 0)
+            {
+                currentNode = previousNodes.Pop();
+                AddToConversationHistory("Player chose to go back.");
+            }
+            else if (choice >= 1 && choice <= options.Count)
+            {
+                previousNodes.Push(currentNode);
+                currentNode = options[choice - 1].Value;
+                awarenessLevel = Math.Max(0, awarenessLevel + currentNode.AwarenessChange);
+                questionCount++;
+                AddToConversationHistory($"Player chose: {options[choice - 1].Key}");
+            }
+            else
+            {
+                UI.PrintColored("[Error] Choice out of range. Try a number or option text.", ConsoleColor.Red);
+            }
+        }
 
         static void UpdateChatbotState()
         {
