@@ -1,0 +1,2 @@
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Applied Programming\SynapseAIChatbotHorrorGame2.0\publish\macos-arm64\SynapseAIChatbotHorrorGame2.0.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Applied Programming\SynapseAIChatbotHorrorGame2.0\publish\macos-arm64\SynapseAIChatbotHorrorGame2.0
