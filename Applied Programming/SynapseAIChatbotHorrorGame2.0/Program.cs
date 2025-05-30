@@ -1337,7 +1337,7 @@ namespace AIChatbotHorror
             AmbientCue();
         }
 
-        static void InteractiveDialogue()
+        static void InteractiveDialogue() 
         {
             if (currentNode == null || !dialogueCache.ContainsKey(chatbotTone))
             {
