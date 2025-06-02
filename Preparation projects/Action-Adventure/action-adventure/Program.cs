@@ -1,98 +1,103 @@
 ﻿﻿using System;
 using System.IO;
 
-namespace MinotaursLair
+class Program
 {
-    public class Program
+    static int width;
+    static int height;
+    static char[,]? map;
+    static int playerX;
+    static int playerY;
+    static string? levelName;
+
+    static void Main()
     {
-        static int width;
-        static int height;
-        static char[,]? map;
-        static int playerX;
-        static int playerY;
-        static void Main(string[] args)
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        LoadLevel("level1.txt");
+        DrawMap();
+    }
+
+    static void LoadLevel(string path)
+    {
+        var lines = File.ReadAllLines(path);
+        levelName = lines[0];
+        string[] dims = lines[1].Split(' ');
+        width = int.Parse(dims[0]);
+        height = int.Parse(dims[1]);
+
+        map = new char[width, height];
+
+        for (int y = 0; y < height; y++)
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-            // Read level data from a file (replace "level.txt" with your actual file path)
-            string[] levelData = File.ReadAllLines("MazeLevel.txt");
-            // Extract the level name from the first row
-            string levelName = levelData[0];
-            // Extract the level dimensions from the second row
-            string[] dimensions = levelData[1].Split('x'); // Split by 'x'
-                width = int.Parse(dimensions[0]);
-                height = int.Parse(dimensions[1]);
-            // Initialize the map and player coordinates
-            map = new char[width, height];
-            // Find the player's starting position (S) in the map
-            for (int y = 0; y < height; y++)
+            string line = lines[y + 2];
+            for (int x = 0; x < width; x++)
             {
-                for (int x = 0; x < width; x++)
+                char c = line[x];
+                map[x, y] = c;
+
+                if (c == 'S')
                 {
-                    map[x, y] = levelData[y + 2][x];
-                    if (map[x, y] == 'S')
-                    {
-                        playerX = x;
-                        playerY = y;
-                        // Replace the player's starting position with a space
-                        map[x, y] = ' ';
-                    }
+                    playerX = x;
+                    playerY = y;
+                    map[x, y] = ' '; // clear out the start tile
                 }
-            }
-            DrawMap();
-        }
-        static void DrawMap()
-        {
-            Console.Clear();
-            // Optional: Randomly generate trees (♠) in the first three rows
-            Random random = new Random();
-            if (map != null)
-            {
-                for (int y = 0; y < 3; y++)
-                {
-                    for (int x = 0; x < width; x++)
-                    {
-                        if (random.Next(5) == 0)
-                        {
-                            map[x, y] = '♠';
-                        }
-                    }
-                }
-            }
-            // Draw the map and player
-            for (int y = 0; y < height; y++)
-            {
-                for (int x = 0; x < width; x++)
-                {
-                    if (x == playerX && y == playerY)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Yellow; // Player color
-                        Console.Write("☺");
-                    }
-                    else
-                    {
-                        char mapChar = map != null ? map[x, y] : ' ';
-                        Console.ForegroundColor = GetColorForMapChar(mapChar);
-                        Console.Write(mapChar);
-                    }
-                }
-                Console.WriteLine();
             }
         }
 
-        static ConsoleColor GetColorForMapChar(char mapChar)
+        // Optional: Randomly add ♠ trees in first three rows
+        var random = new Random();
+        for (int y = 0; y < 3; y++)
         {
-            // Optional: Define colors based on map characters (customize as needed)
-            switch (mapChar)
+            for (int x = 0; x < width; x++)
             {
-                case '█':
-                    return ConsoleColor.Gray; // Wall color
-                case 'M':
-                    return ConsoleColor.Red; // Minotaur color
-                case '♠':
-                    return ConsoleColor.Green; // Tree color
-                default:
-                    return ConsoleColor.White; // Default color (empty space)
+                if (map[x, y] == ' ' && random.NextDouble() < 0.05)
+                {
+                    map[x, y] = '♠';
+                }
             }
         }
+    }
+
+    static void DrawMap()
+    {
+        Console.Clear();
+        Console.WriteLine(levelName + "\n");
+
+        for (int y = 0; y < height; y++)
+        {
+            for (int x = 0; x < width; x++)
+            {
+                if (x == playerX && y == playerY)
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.Write('☺');
+                }
+                else if (map != null)
+                {
+                    switch (map[x, y])
+                    {
+                        case '#':
+                            Console.ForegroundColor = ConsoleColor.Gray;
+                            Console.Write('#');
+                            break;
+                        case 'M':
+                            Console.ForegroundColor = ConsoleColor.Red;
+                            Console.Write('M');
+                            break;
+                        case '♠':
+                            Console.ForegroundColor = ConsoleColor.Green;
+                            Console.Write('♠');
+                            break;
+                        default:
+                            Console.ResetColor();
+                            Console.Write(map[x, y]);
+                            break;
+                    }
+                }
+            }
+            Console.WriteLine();
+        }
+
+        Console.ResetColor();
     }
 }
