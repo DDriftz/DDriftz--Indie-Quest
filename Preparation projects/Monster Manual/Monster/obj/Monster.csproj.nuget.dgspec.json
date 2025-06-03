@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\Monster\\Monster.csproj": {}
+    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Monster Manual\\Monster\\Monster.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\Monster\\Monster.csproj": {
+    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Monster Manual\\Monster\\Monster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\Monster\\Monster.csproj",
+        "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Monster Manual\\Monster\\Monster.csproj",
         "projectName": "Monster",
-        "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\Monster\\Monster.csproj",
+        "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Monster Manual\\Monster\\Monster.csproj",
         "packagesPath": "C:\\Users\\Hussein Mohammed Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\Monster\\obj\\",
+        "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Monster Manual\\Monster\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

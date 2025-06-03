@@ -1,0 +1,15 @@
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\bin\Debug\net9.0\Monster.exe
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\bin\Debug\net9.0\Monster.deps.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\bin\Debug\net9.0\Monster.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\bin\Debug\net9.0\Monster.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\bin\Debug\net9.0\Monster.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\obj\Debug\net9.0\Monster.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\obj\Debug\net9.0\Monster.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\obj\Debug\net9.0\Monster.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\obj\Debug\net9.0\Monster.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\obj\Debug\net9.0\Monster.sourcelink.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\obj\Debug\net9.0\Monster.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\obj\Debug\net9.0\refint\Monster.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\obj\Debug\net9.0\Monster.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\obj\Debug\net9.0\Monster.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Monster Manual\Monster\obj\Debug\net9.0\ref\Monster.dll
