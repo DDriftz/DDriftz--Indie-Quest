@@ -1,0 +1,15 @@
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\bin\Debug\net9.0\Bowling3.1.exe
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\bin\Debug\net9.0\Bowling3.1.deps.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\bin\Debug\net9.0\Bowling3.1.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\bin\Debug\net9.0\Bowling3.1.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\bin\Debug\net9.0\Bowling3.1.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\obj\Debug\net9.0\Bowling3.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\obj\Debug\net9.0\Bowling3.1.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\obj\Debug\net9.0\Bowling3.1.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\obj\Debug\net9.0\Bowling3.1.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\obj\Debug\net9.0\Bowling3.1.sourcelink.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\obj\Debug\net9.0\Bowling3.1.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\obj\Debug\net9.0\refint\Bowling3.1.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\obj\Debug\net9.0\Bowling3.1.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\obj\Debug\net9.0\Bowling3.1.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Bowling\Bowling 3.1\obj\Debug\net9.0\ref\Bowling3.1.dll
