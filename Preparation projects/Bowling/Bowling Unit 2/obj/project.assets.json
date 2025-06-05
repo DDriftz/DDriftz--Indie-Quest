@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling 2\\Bowling2.csproj",
+      "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling Unit 2\\Bowling2.csproj",
       "projectName": "Bowling2",
-      "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling 2\\Bowling2.csproj",
+      "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling Unit 2\\Bowling2.csproj",
       "packagesPath": "C:\\Users\\Hussein Mohammed Ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling 2\\obj\\",
+      "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling Unit 2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

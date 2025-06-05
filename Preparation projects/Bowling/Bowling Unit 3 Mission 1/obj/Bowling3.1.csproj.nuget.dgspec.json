@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling 3.1\\Bowling3.1.csproj": {}
+    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling Unit 3 Mission 1\\Bowling3.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling 3.1\\Bowling3.1.csproj": {
+    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling Unit 3 Mission 1\\Bowling3.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling 3.1\\Bowling3.1.csproj",
+        "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling Unit 3 Mission 1\\Bowling3.1.csproj",
         "projectName": "Bowling3.1",
-        "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling 3.1\\Bowling3.1.csproj",
+        "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling Unit 3 Mission 1\\Bowling3.1.csproj",
         "packagesPath": "C:\\Users\\Hussein Mohammed Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling 3.1\\obj\\",
+        "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Bowling\\Bowling Unit 3 Mission 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

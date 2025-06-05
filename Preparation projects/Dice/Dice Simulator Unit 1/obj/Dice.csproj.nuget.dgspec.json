@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Dice\\Dice\\Dice.csproj": {}
+    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Dice\\Dice Simulator Unit 1\\Dice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Dice\\Dice\\Dice.csproj": {
+    "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Dice\\Dice Simulator Unit 1\\Dice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Dice\\Dice\\Dice.csproj",
+        "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Dice\\Dice Simulator Unit 1\\Dice.csproj",
         "projectName": "Dice",
-        "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Dice\\Dice\\Dice.csproj",
+        "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Dice\\Dice Simulator Unit 1\\Dice.csproj",
         "packagesPath": "C:\\Users\\Hussein Mohammed Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Dice\\Dice\\obj\\",
+        "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Preparation projects\\Dice\\Dice Simulator Unit 1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

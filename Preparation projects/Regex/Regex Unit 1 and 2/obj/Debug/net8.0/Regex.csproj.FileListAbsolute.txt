@@ -1,0 +1,32 @@
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\obj\Debug\net8.0\Regex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\obj\Debug\net8.0\Regex.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\obj\Debug\net8.0\Regex.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\obj\Debug\net8.0\Regex.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\obj\Debug\net8.0\Regex.sourcelink.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\bin\Debug\net8.0\MonsterManual.txt
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\bin\Debug\net8.0\Regex.exe
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\bin\Debug\net8.0\Regex.deps.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\bin\Debug\net8.0\Regex.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\bin\Debug\net8.0\Regex.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\bin\Debug\net8.0\Regex.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\obj\Debug\net8.0\Regex.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\obj\Debug\net8.0\refint\Regex.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\obj\Debug\net8.0\Regex.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\obj\Debug\net8.0\Regex.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex\obj\Debug\net8.0\ref\Regex.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\bin\Debug\net8.0\MonsterManual.txt
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\bin\Debug\net8.0\Regex.exe
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\bin\Debug\net8.0\Regex.deps.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\bin\Debug\net8.0\Regex.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\bin\Debug\net8.0\Regex.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\bin\Debug\net8.0\Regex.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\obj\Debug\net8.0\Regex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\obj\Debug\net8.0\Regex.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\obj\Debug\net8.0\Regex.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\obj\Debug\net8.0\Regex.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\obj\Debug\net8.0\Regex.sourcelink.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\obj\Debug\net8.0\Regex.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\obj\Debug\net8.0\refint\Regex.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\obj\Debug\net8.0\Regex.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\obj\Debug\net8.0\Regex.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Regex\Regex Unit 1 and 2\obj\Debug\net8.0\ref\Regex.dll

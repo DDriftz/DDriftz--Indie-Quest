@@ -13,3 +13,18 @@ C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horro
 C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice3\obj\Debug\net9.0\Dice3.pdb
 C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice3\obj\Debug\net9.0\Dice3.genruntimeconfig.cache
 C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice3\obj\Debug\net9.0\ref\Dice3.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\bin\Debug\net9.0\Dice3.exe
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\bin\Debug\net9.0\Dice3.deps.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\bin\Debug\net9.0\Dice3.runtimeconfig.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\bin\Debug\net9.0\Dice3.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\bin\Debug\net9.0\Dice3.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\obj\Debug\net9.0\Dice3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\obj\Debug\net9.0\Dice3.AssemblyInfoInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\obj\Debug\net9.0\Dice3.AssemblyInfo.cs
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\obj\Debug\net9.0\Dice3.csproj.CoreCompileInputs.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\obj\Debug\net9.0\Dice3.sourcelink.json
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\obj\Debug\net9.0\Dice3.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\obj\Debug\net9.0\refint\Dice3.dll
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\obj\Debug\net9.0\Dice3.pdb
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\obj\Debug\net9.0\Dice3.genruntimeconfig.cache
+C:\Users\Hussein Mohammed Ali\Desktop\SynapseBlazor\SYNAPSE--An-AI-Chatbot-Horror-Game\Preparation projects\Dice\Dice Simulator Unit 3\obj\Debug\net9.0\ref\Dice3.dll

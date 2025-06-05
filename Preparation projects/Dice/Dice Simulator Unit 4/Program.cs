@@ -1,250 +1,273 @@
 ﻿﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading;
 
-namespace Dice4
+namespace DiceSimulator
 {
-    internal class Program
+    class Program
     {
+        static Random random = new Random();
         private static readonly char[] DiceSplitChars = { '+', '-' };
+        
+        // Dictionary mapping dice types to their ASCII art files
+        // Placeholder 'X' is expected in the art files.
+        private static readonly Dictionary<int, (string path, ConsoleColor color)> DiceArtFiles = new()
+        {
+            {4, ("D4.txt", ConsoleColor.Red)},
+            {6, ("D6.txt", ConsoleColor.Green)},
+            {8, ("D8.txt", ConsoleColor.Blue)},
+            {10, ("D10.txt", ConsoleColor.Yellow)},
+            {12, ("D12.txt", ConsoleColor.Cyan)},
+            {20, ("D20.txt", ConsoleColor.Magenta)}
+        };
 
         static void Main()
         {
+            Console.Clear();
+            // Note: DiceLogo.txt was not provided, so this might show a "file missing" message.
+            DrawArt("DiceLogo.txt", ConsoleColor.DarkCyan); 
             Simulate();
-        }
-
-        static void DrawArt(string path, ConsoleColor foregroundColor, string toBeReplaced = "", string replaceWith = "")
-        {
-            Console.ForegroundColor = foregroundColor;
-            string[] logoLines = File.ReadAllLines(path);
-            foreach (var line in logoLines)
-            {
-                if (!string.IsNullOrWhiteSpace(toBeReplaced) && !string.IsNullOrWhiteSpace(replaceWith))
-                {
-                    Console.WriteLine(line.Replace(replaceWith.Length == 2 ? $"{toBeReplaced} " : toBeReplaced, replaceWith.ToString()));
-                }
-                else
-                {
-                    Console.WriteLine(line);
-                }
-            }
-            Thread.Sleep(500);
-            Console.WriteLine();
-            Console.ForegroundColor = ConsoleColor.Gray;
         }
 
         static void Simulate()
         {
-            DrawArt("DiceLogo.txt", ConsoleColor.Magenta);
-            bool isStandardNotation = false;
-            string? notationInput = string.Empty;
-            Console.WriteLine("Enter desired roll in standard dice notation:");
-            while (!isStandardNotation)
+            string? currentNotationInput = null; // Store the last valid notation
+
+            while (true)
             {
-                notationInput = Console.ReadLine();
-                Console.WriteLine();
-                if (string.IsNullOrWhiteSpace(notationInput))
+                if (currentNotationInput == null) // Only ask for new input if we don't have one
                 {
-                    Console.WriteLine("Input cannot be empty. Try again:");
+                    currentNotationInput = GetValidDiceNotation();
+                }
+                
+                int total = DiceRoll(currentNotationInput);
+                
+                Console.WriteLine($"\nYou rolled {total} (including bonuses).\n");
+                
+                ConsoleKey action = PromptForNextAction();
+
+                if (action == ConsoleKey.Q) break; // Quit
+                if (action == ConsoleKey.N) // New roll
+                {
+                    currentNotationInput = null; // Clear current notation to ask for new
+                    Console.Clear();
+                    DrawArt("DiceLogo.txt", ConsoleColor.DarkCyan); // Redraw logo if needed
+                }
+                // If action is R (Repeat), loop continues with currentNotationInput
+            }
+            Console.WriteLine("Exiting Dice Simulator. Goodbye!");
+        }
+
+        static string GetValidDiceNotation()
+        {
+            while (true)
+            {
+                Console.WriteLine("Enter desired roll in standard dice notation (e.g. 2d6+1):");
+                string? input = Console.ReadLine();
+                if (string.IsNullOrWhiteSpace(input)) // Check for null or whitespace
+                {
+                    Console.WriteLine("\nInput cannot be empty. Please try again.\n");
                     continue;
                 }
                 try
                 {
-                    IsStandardDiceNotation(notationInput);
-                    isStandardNotation = true;
+                    IsStandardDiceNotation(input); // This method throws if invalid
+                    return input;
                 }
-                catch (ArgumentException ae)
+                catch (ArgumentException ex)
                 {
-                    Console.WriteLine($"{ae.Message} Try again:");
+                    Console.WriteLine($"\n{ex.Message} Please try again.\n");
                 }
             }
+        }
 
-            if (!string.IsNullOrWhiteSpace(notationInput))
-                Console.WriteLine($"You rolled {DiceRoll(notationInput)}.\n");
-
+        // Updated PromptForNextAction to align with Word doc (Part 2)
+        static ConsoleKey PromptForNextAction()
+        {
+            Console.WriteLine("Do you want to (r)epeat, enter a (n)ew roll, or (q)uit?");
             while (true)
             {
-                Console.WriteLine("Press 'R' to roll again, 'N' for new dice notation, or any other key to exit.");
-                var keyInfo = Console.ReadKey(true);
-                if (keyInfo.Key == ConsoleKey.R)
+                var keyInfo = Console.ReadKey(true); // Read key without displaying it
+                
+                switch (keyInfo.Key)
                 {
-                    if (!string.IsNullOrWhiteSpace(notationInput))
-                        Console.WriteLine($"You rolled {DiceRoll(notationInput)}.\n");
-                }
-                else if (keyInfo.Key == ConsoleKey.N)
-                {
-                    isStandardNotation = false;
-                    notationInput = string.Empty;
-                    Console.WriteLine("Enter desired roll in standard dice notation:");
-                    while (!isStandardNotation)
-                    {
-                        notationInput = Console.ReadLine();
-                        Console.WriteLine();
-                        if (string.IsNullOrWhiteSpace(notationInput))
-                        {
-                            Console.WriteLine("Input cannot be empty. Try again:");
-                            continue;
-                        }
-                        try
-                        {
-                            IsStandardDiceNotation(notationInput);
-                            isStandardNotation = true;
-                        }
-                        catch (ArgumentException ae)
-                        {
-                            Console.WriteLine($"{ae.Message} Try again:");
-                        }
-                    }
-                    if (!string.IsNullOrWhiteSpace(notationInput))
-                        Console.WriteLine($"You rolled {DiceRoll(notationInput)}.\n");
-                }
-                else
-                {
-                    return;
+                    case ConsoleKey.R:
+                        Console.WriteLine("Repeating roll...");
+                        return ConsoleKey.R;
+                    case ConsoleKey.N:
+                        Console.WriteLine("Entering new roll...");
+                        return ConsoleKey.N;
+                    case ConsoleKey.Q:
+                        return ConsoleKey.Q;
+                    default:
+                        Console.WriteLine("Invalid option. Please press R, N, or Q.");
+                        break;
                 }
             }
         }
-
-        static int DiceRoll(int numberOfRolls, int diceSides, int fixedBonus = 0)
+        
+        // Modified DiceRoll to align with Part 2 (repeat uses same notation)
+        static int DiceRoll(string diceNotation)
         {
-            Random random = new();
-            int total = fixedBonus;
-            for (int i = 0; i < numberOfRolls; i++)
-            {
-                int randomNumber = random.Next(1, diceSides + 1);
-                total += randomNumber;
+            Console.WriteLine("\nSimulating...\n");
+            Thread.Sleep(100); // Reduced sleep time slightly
 
-                if (diceSides == 4)
+            ParseDiceNotation(diceNotation, out int rolls, out int sides, out int bonus);
+            int totalOfDice = 0; // Sum of dice rolls only
+
+            for (int i = 0; i < rolls; i++)
+            {
+                int result = random.Next(1, sides + 1);
+                totalOfDice += result;
+                DisplayRollResult(i + 1, sides, result);
+                Thread.Sleep(100); // Reduced sleep time slightly
+            }
+            
+            // Output individual rolls sum before bonus, as per Word doc Part 1 example
+            if (rolls > 0 && bonus != 0)
+            {
+                 Console.WriteLine($"\nYou rolled {totalOfDice} from the dice.");
+            } else if (rolls > 0 && bonus == 0) {
+                 // If no bonus, the totalOfDice is the final "You rolled X" message
+                 // This is handled by the total in Simulate()
+            }
+
+
+            return totalOfDice + bonus; // Final score including bonus
+        }
+
+
+        static void ParseDiceNotation(string notation, out int rolls, out int sides, out int bonus)
+        {
+            notation = notation.ToLower(); // Standardize to lowercase for parsing 'd'
+            int dIndex = notation.IndexOf('d');
+            
+            // Rolls: if 'd' is at the start (e.g., "d6"), rolls = 1. Otherwise, parse number before 'd'.
+            rolls = dIndex > 0 ? int.Parse(notation[..dIndex]) : 1;
+
+            string afterD = notation[(dIndex + 1)..];
+            int opIndex = afterD.IndexOfAny(DiceSplitChars);
+
+            if (opIndex != -1)
+            {
+                sides = int.Parse(afterD[..opIndex]);
+                bonus = int.Parse(afterD[opIndex..]); // e.g., "+5" or "-2"
+            }
+            else
+            {
+                sides = int.Parse(afterD);
+                bonus = 0;
+            }
+        }
+
+        static void DisplayRollResult(int rollNumber, int sides, int result)
+        {
+            if (DiceArtFiles.TryGetValue(sides, out var artInfo))
+            {
+                Console.WriteLine($"{OrdinalNumber(rollNumber)} roll ({sides}-sided die shows {result}):");
+                // The placeholder in DrawArt is "X" (uppercase) by default
+                DrawArt(artInfo.path, artInfo.color, "X", result.ToString());
+            }
+            else
+            {
+                Console.WriteLine($"{OrdinalNumber(rollNumber)} roll is: {result}");
+            }
+        }
+
+        static void DrawArt(string path, ConsoleColor color, string placeholder = "", string replacement = "")
+        {
+            ConsoleColor originalColor = Console.ForegroundColor;
+            Console.ForegroundColor = color;
+            
+            try
+            {
+                if (File.Exists(path))
                 {
-                    DrawArt("D4.txt", ConsoleColor.Red, "X", randomNumber.ToString());
-                }
-                else if (diceSides == 6)
-                {
-                    DrawArt("D6.txt", ConsoleColor.Green, "X", randomNumber.ToString());
+                    string[] artLines = File.ReadAllLines(path);
+                    foreach (string line in artLines)
+                    {
+                        if (!string.IsNullOrEmpty(placeholder) && !string.IsNullOrEmpty(replacement))
+                        {
+                            // Simplified replacement logic: PadLeft(2) ensures a 2-char width string (" 7" or "12")
+                            // This replaces the single character placeholder (e.g., "X") with the 2-char number.
+                            Console.WriteLine(line.Replace(placeholder, replacement.PadLeft(2)));
+                        }
+                        else
+                        {
+                            Console.WriteLine(line);
+                        }
+                    }
                 }
                 else
                 {
-                    Console.WriteLine($"{OrdinalNumber(i + 1)} roll is: {randomNumber}");
+                    if (path != "DiceLogo.txt") // Only show missing file for actual dice art
+                       Console.WriteLine($"[Art file missing: {path}]");
                 }
             }
-            Console.WriteLine();
-            return total;
-        }
-                static int DiceRoll(string diceNotation)
-                {
-                    // Example: 2d6+3 or d20 or 4d8-2
-                    Console.WriteLine("Simulating ...\n");
-                    int dIndex = diceNotation.IndexOf('d');
-                    int numberOfRolls;
-                    int diceSides;
-                    int fixedBonus;
-                    int sign;
-        
-                    if (dIndex > 0)
-                        numberOfRolls = int.Parse(diceNotation[..dIndex]);
-                    else
-                        numberOfRolls = 1;
-        
-                    int plusIndex = diceNotation.IndexOf('+', dIndex);
-                    int minusIndex = diceNotation.IndexOf('-', dIndex);
-        
-                    if (plusIndex > 0)
-                    {
-                        diceSides = int.Parse(diceNotation[(dIndex + 1)..plusIndex]);
-                        fixedBonus = int.Parse(diceNotation[(plusIndex + 1)..]);
-                        sign = 1;
-                    }
-                    else if (minusIndex > 0)
-                    {
-                        diceSides = int.Parse(diceNotation[(dIndex + 1)..minusIndex]);
-                        fixedBonus = int.Parse(diceNotation[(minusIndex + 1)..]);
-                        sign = -1;
-                    }
-                    else
-                    {
-                        diceSides = int.Parse(diceNotation[(dIndex + 1)..]);
-                        fixedBonus = 0;
-                        sign = 1;
-                    }
-                    return DiceRoll(numberOfRolls, diceSides, fixedBonus * sign);
-                }
-        
-                static void IsStandardDiceNotation(string text)
-                {
-                    string[] textParts = text.Split('d');
-                    if (textParts.Length <= 1)
-                    {
-                        throw new ArgumentException($"Roll description is not in standard dice notation.");
-                    }
-        
-                    int numberOfRolls;
-                    try
-                    {
-                        numberOfRolls = textParts[0].Length > 0 ? int.Parse(textParts[0]) : 1;
-                    }
-                    catch
-                    {
-                        throw new ArgumentException($"Number of rolls ({textParts[0]}) is not an integer.");
-                    }
-        
-                if (numberOfRolls <= 0)
-                {
-                    throw new ArgumentException($"Number of rolls ({textParts[0]}) has to be positive.");
-                }
-
-                string[] diceParts = textParts[1].Split(DiceSplitChars, StringSplitOptions.RemoveEmptyEntries);
-                int diceSides;
-                try
-                {
-                    diceSides = int.Parse(diceParts[0]);
-                }
-                catch
-                {
-                    throw new ArgumentException($"Number of dice sides ({diceParts[0]}) is not an integer.");
-                }
-
-                if (diceSides <= 0)
-                {
-                    throw new ArgumentException($"Number of sides ({diceParts[0]}) has to be positive.");
-                }
-
-                if (diceParts.Length > 1)
-                {
-                    try
-                    {
-                        _ = int.Parse(diceParts[1]);
-                    }
-                    catch
-                    {
-                        throw new ArgumentException($"Fixed bonus ({diceParts[1]}) is not an integer.");
-                    }
-                }
-            }
-
-            static string OrdinalNumber(int number)
+            catch (Exception ex)
             {
-                if (number > 10)
-                {
-                    int secondToLastDigit = number / 10 % 10;
-                    if (secondToLastDigit == 1)
-                    {
-                        return $"{number}th";
-                    }
-                }
-                int lastDigit = number % 10;
-                if (lastDigit == 1)
-                {
-                    return $"{number}st";
-                }
-                if (lastDigit == 2)
-                {
-                    return $"{number}nd";
-                }
-                if (lastDigit == 3)
-                {
-                    return $"{number}rd";
-                }
-                return $"{number}th";
+                Console.WriteLine($"[Art error reading {path}: {ex.Message}]");
+            }
+            
+            Console.ForegroundColor = originalColor; // Reset to original color
+            Console.WriteLine(); // Add a blank line for spacing after art
+        }
+
+        static void IsStandardDiceNotation(string text)
+        {
+            if (string.IsNullOrWhiteSpace(text))
+                throw new ArgumentException("Input cannot be empty.");
+
+            string tempText = text.ToLower(); // Use lowercase for 'd' detection
+            int dIndex = tempText.IndexOf('d');
+            if (dIndex == -1)
+                throw new ArgumentException("Missing 'd' in dice notation (e.g., 2d6, d20).");
+
+            // Validate number of rolls (if specified)
+            if (dIndex > 0) // If there's something before 'd'
+            {
+                if (!int.TryParse(tempText[..dIndex], out int rolls) || rolls <= 0)
+                    throw new ArgumentException("Invalid number of rolls. Must be a positive number.");
+            }
+
+            string afterD = tempText[(dIndex + 1)..];
+            if (string.IsNullOrWhiteSpace(afterD))
+                throw new ArgumentException("Missing number of sides after 'd' (e.g., d6, d20).");
+
+            int opIndex = afterD.IndexOfAny(DiceSplitChars); // Check for '+' or '-'
+            string sidesStr = opIndex != -1 ? afterD[..opIndex] : afterD;
+
+            if (!int.TryParse(sidesStr, out int sides) || sides <= 0)
+                throw new ArgumentException("Invalid number of sides. Must be a positive number.");
+
+            // Validate bonus (if specified)
+            if (opIndex != -1)
+            {
+                if (opIndex == afterD.Length - 1) // Operator is last char e.g. "2d6+"
+                    throw new ArgumentException("Missing bonus value after operator '+' or '-'.");
+                if (!int.TryParse(afterD[(opIndex)..], out _)) // Check characters after operator
+                    throw new ArgumentException("Invalid bonus value. Must be a number after '+' or '-'.");
+            }
+        }
+
+        static string OrdinalNumber(int number)
+        {
+            if (number <= 0) return number.ToString(); // Handle non-positives if they ever occur
+            switch (number % 100)
+            {
+                case 11:
+                case 12:
+                case 13:
+                    return $"{number}th";
+            }
+            switch (number % 10)
+            {
+                case 1: return $"{number}st";
+                case 2: return $"{number}nd";
+                case 3: return $"{number}rd";
+                default: return $"{number}th";
             }
         }
     }
+}

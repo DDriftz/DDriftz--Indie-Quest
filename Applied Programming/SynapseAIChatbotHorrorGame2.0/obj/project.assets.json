@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\SynapseAIChatbotHorrorGame2.0\\SynapseAIChatbotHorrorGame2.0.csproj",
+      "projectUniqueName": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Applied Programming\\SynapseAIChatbotHorrorGame2.0\\SynapseAIChatbotHorrorGame2.0.csproj",
       "projectName": "SynapseAIChatbotHorrorGame2.0",
-      "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\SynapseAIChatbotHorrorGame2.0\\SynapseAIChatbotHorrorGame2.0.csproj",
+      "projectPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Applied Programming\\SynapseAIChatbotHorrorGame2.0\\SynapseAIChatbotHorrorGame2.0.csproj",
       "packagesPath": "C:\\Users\\Hussein Mohammed Ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\studier\\C#\\SynapseAIChatbotHorrorGame2.0\\obj\\",
+      "outputPath": "C:\\Users\\Hussein Mohammed Ali\\Desktop\\SynapseBlazor\\SYNAPSE--An-AI-Chatbot-Horror-Game\\Applied Programming\\SynapseAIChatbotHorrorGame2.0\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "I:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -52,7 +52,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -73,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
