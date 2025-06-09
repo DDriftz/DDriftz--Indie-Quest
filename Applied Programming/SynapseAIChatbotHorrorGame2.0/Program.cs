@@ -727,86 +727,116 @@ namespace AIChatbotHorror
             BuildDialogueTree(ChatbotTone.Friendly);
         }
 
-        static bool RunTutorialSection(string title, string description, TutorialStep[] steps)
+        // TutorialStep class definition
+        class TutorialStep
         {
-            UI.PrintColored($"\n=== {title} ===\n{description}", ConsoleColor.Yellow);
-            for (int i = 0; i < steps.Length; i++)
+            public string Title { get; }
+            public string Instruction { get; }
+            public Func<string, bool> Validator { get; }
+            public string? Command { get; }
+            public string SuccessMessage { get; }
+            public string ErrorMessage { get; }
+            public string? Hint { get; }
+            public string? HelpText { get; }
+            public Action? Setup { get; }
+            public Action<string>? CustomAction { get; }
+            public Func<bool>? Condition { get; }
+        
+            public TutorialStep(
+                string title,
+                string instruction,
+                Func<string, bool> validator,
+                string? command = null,
+                string successMessage = "",
+                string errorMessage = "",
+                string? hint = null,
+                string? helpText = null,
+                Action? Setup = null,
+                Action<string>? CustomAction = null,
+                Func<bool>? Condition = null
+            )
             {
-                var step = steps[i];
-                if (step.Condition != null && !step.Condition())
-                    continue;
-                UI.PrintColored($"\nStep {i + 1}/{steps.Length}: {step.Title}", ConsoleColor.Green);
-                UI.PrintResponse(step.Instruction);
-                UI.PrintColored("Type 'skip' to skip, 'skip all' to exit, or 'help' for more info.", ConsoleColor.Cyan);
-                if (step.Setup != null)
-                    step.Setup();
-                int attempts = 0;
-                while (true)
-                {
-                    string input = UI.GetInput().ToLowerInvariant();
-                    AddToConversationHistory($"Player (Tutorial): {input}");
-                    if (input == "skip")
-                    {
-                        UI.PrintColored("Step skipped.", ConsoleColor.Cyan);
-                        break;
-                    }
-                    if (input == "skip all")
-                    {
-                        UI.PrintColored("Tutorial exited. Type 'restart tutorial' to replay it later.", ConsoleColor.Cyan);
-                        ResetTutorialState();
-                        tutorialCompleted = true;
-                        return false;
-                    }
-                    if (input == "help")
-                    {
-                        if (!string.IsNullOrEmpty(step.HelpText))
-                            UI.PrintColored(step.HelpText, ConsoleColor.Cyan);
-                        else
-                            UI.PrintColored("No additional help available for this step.", ConsoleColor.Cyan);
-                        continue;
-                    }
-                    if (step.Validator(input))
-                    {
-                        if (step.Command != null)
-                        {
-                            ProcessPlayerInput(step.Command);
-                            UpdateChatbotState();
-                            if (step.Command != "1")
-                                DisplayChatbotResponse();
-                            if (step.Command == "1" && currentNode?.Responses.Any() == true)
-                                InteractiveDialogue();
-                        }
-                        else if (step.CustomAction != null)
-                            step.CustomAction(input);
-                        UI.PrintColored(step.SuccessMessage, ConsoleColor.Green);
-                        break;
-                    }
-                    else
-                    {
-                        UI.PrintColored(step.ErrorMessage, ConsoleColor.Red);
-                        attempts++;
-                        if (attempts >= 3 && !string.IsNullOrEmpty(step.Hint))
-                            UI.PrintColored($"Hint: {step.Hint}", ConsoleColor.Yellow);
-                    }
-                }
+                Title = title;
+                Instruction = instruction;
+                Validator = validator;
+                Command = command;
+                SuccessMessage = successMessage;
+                ErrorMessage = errorMessage;
+                Hint = hint;
+                HelpText = helpText;
+                this.Setup = Setup;
+                this.CustomAction = CustomAction;
+                this.Condition = Condition;
             }
-            UI.PrintColored($"\nYou have completed the {title} section.", ConsoleColor.Cyan);
-            return true;
         }
+        
+                static bool RunTutorialSection(string title, string description, TutorialStep[] steps)
+                {
+                    UI.PrintColored($"\n=== {title} ===\n{description}", ConsoleColor.Yellow);
+                    for (int i = 0; i < steps.Length; i++)
+                    {
+                        var step = steps[i];
+                        if (step.Condition != null && !step.Condition())
+                            continue;
+                        UI.PrintColored($"\nStep {i + 1}/{steps.Length}: {step.Title}", ConsoleColor.Green);
+                        UI.PrintResponse(step.Instruction);
+                        UI.PrintColored("Type 'skip' to skip, 'skip all' to exit, or 'help' for more info.", ConsoleColor.Cyan);
+                        if (step.Setup != null)
+                            step.Setup();
+                        int attempts = 0;
+                        while (true)
+                        {
+                            string input = UI.GetInput().ToLowerInvariant();
+                            AddToConversationHistory($"Player (Tutorial): {input}");
+                            if (input == "skip")
+                            {
+                                UI.PrintColored("Step skipped.", ConsoleColor.Cyan);
+                                break;
+                            }
+                            if (input == "skip all")
+                            {
+                                UI.PrintColored("Tutorial exited. Type 'restart tutorial' to replay it later.", ConsoleColor.Cyan);
+                                ResetTutorialState();
+                                tutorialCompleted = true;
+                                return false;
+                            }
+                            if (input == "help")
+                            {
+                                if (!string.IsNullOrEmpty(step.HelpText))
+                                    UI.PrintColored(step.HelpText, ConsoleColor.Cyan);
+                                else
+                                    UI.PrintColored("No additional help available for this step.", ConsoleColor.Cyan);
+                                continue;
+                            }
+                            if (step.Validator(input))
+                            {
+                                if (step.Command != null)
+                                {
+                                    ProcessPlayerInput(step.Command);
+                                    UpdateChatbotState();
+                                    if (step.Command != "1")
+                                        DisplayChatbotResponse();
+                                    if (step.Command == "1" && currentNode?.Responses.Any() == true)
+                                        InteractiveDialogue();
+                                }
+                                else if (step.CustomAction != null)
+                                    step.CustomAction(input);
+                                UI.PrintColored(step.SuccessMessage, ConsoleColor.Green);
+                                break;
+                            }
+                            else
+                            {
+                                UI.PrintColored(step.ErrorMessage, ConsoleColor.Red);
+                                attempts++;
+                                if (attempts >= 3 && !string.IsNullOrEmpty(step.Hint))
+                                    UI.PrintColored($"Hint: {step.Hint}", ConsoleColor.Yellow);
+                            }
+                        }
+                    }
+                    UI.PrintColored($"\nYou have completed the {title} section.", ConsoleColor.Cyan);
+                    return true;
+                }
 
-        record TutorialStep(
-            string Title,
-            string Instruction,
-            Func<string, bool> Validator,
-            string? Command,
-            string SuccessMessage,
-            string ErrorMessage,
-            string? Hint = null,
-            string? HelpText = null,
-            Action? Setup = null,
-            Action<string>? CustomAction = null,
-            Func<bool>? Condition = null
-        );
 
         static class UI
         {

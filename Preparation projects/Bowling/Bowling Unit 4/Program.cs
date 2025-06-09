@@ -164,7 +164,7 @@ class BowlingGame
         int pathChoice;
         Console.WriteLine("\nPaths:  1  2  3  4  5  6  7");
         Console.WriteLine("        ↑  ↑  ↑  ↑  ↑  ↑  ↑");
-        Console.WriteLine("Pins: (7)(4)(2)(1)(3)(6)(10)"); // Approx pin under path start
+        Console.WriteLine("Pins: (7)(4)(2)(8)(1)(5)(3)(9)(6)(10)"); // Approx pin under path start
         do
         {
             Console.Write("Choose a path (1-7) to aim for: ");
