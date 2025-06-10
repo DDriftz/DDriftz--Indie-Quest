@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SynapseAIChatbotHorrorGame2.0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d90d621565639c2647a4db9ab35e09565c43c15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a919e6cca98a2b2e5c21822752ed1915ca2f864")]
 [assembly: System.Reflection.AssemblyProductAttribute("SynapseAIChatbotHorrorGame2.0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SynapseAIChatbotHorrorGame2.0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

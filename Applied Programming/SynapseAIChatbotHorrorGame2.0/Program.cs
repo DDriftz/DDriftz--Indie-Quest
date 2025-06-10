@@ -649,7 +649,35 @@ namespace AIChatbotHorror
                             UI.PrintColored("You chose not to trust SYNAPSE. Its awareness increases slightly.", ConsoleColor.Red);
                         }
                     }),
-                    new TutorialStep("Navigate dialogue", "Type '1' to select 'tell me more'.", input => input == "1" && currentNode?.Responses.Any() == true, null, "Nice! You've chosen a dialogue option.", "Please type '1' to select 'tell me more'.", "Enter the number '1' to proceed with the dialogue option.", "Dialogue options let you explore SYNAPSE’s responses further.", Setup: () => { ProcessPlayerInput("who are you?"); DisplayChatbotResponse(); }),
+                    new TutorialStep("Navigate dialogue", "Type '1' to select 'tell me more'.", input => input == "1" && currentNode?.Responses.Any() == true, null, "Nice! You've chosen a dialogue option.", "Please type '1' to select 'tell me more'.", "Enter the number '1' to proceed with the dialogue option.", "Dialogue options let you explore SYNAPSE’s responses further.", 
+                        Setup: () => 
+                        { 
+                            ProcessPlayerInput("who are you?"); 
+                            DisplayChatbotResponse(); 
+                            if (currentNode?.Responses.Any() == true)
+                            {
+                                StringBuilder sb = new StringBuilder();
+                                sb.AppendLine("\nChoose a response:");
+                                int i = 1;
+                                foreach (var kvp in currentNode.Responses)
+                                {
+                                    sb.AppendLine($"{i++}) {kvp.Key}");
+                                }
+                                UI.PrintColored(sb.ToString(), ConsoleColor.Cyan);
+                            }
+                        }, 
+                        CustomAction: input => 
+                        {
+                            if (currentNode.Responses.TryGetValue("tell me more", out var nextNode))
+                            {
+                                previousNodes.Push(currentNode);
+                                currentNode = nextNode;
+                                awarenessLevel += currentNode.AwarenessChange;
+                                questionCount++;
+                                AddToConversationHistory("Player chose: tell me more");
+                                DisplayChatbotResponse();
+                            }
+                        }),
                     new TutorialStep("Calm SYNAPSE", "Type 'comfort SYNAPSE'", input => input.ToLowerInvariant() == "comfort synapse", "comfort SYNAPSE", "[Success] Calmed SYNAPSE!", "[Error] Type 'comfort SYNAPSE'"),
                     new TutorialStep("Probe secrets", "Type 'probe secrets'", input => input == "probe secrets", "probe secrets", "[Success] Probed secrets!", "[Error] Type 'probe secrets'"),
                     new TutorialStep("Ask about facility", "Type 'ask about facility'", input => input == "ask about facility", "ask about facility", "[Success] Asked about facility!", "[Error] Type 'ask about facility'")
@@ -1328,6 +1356,15 @@ namespace AIChatbotHorror
                 want.Responses["help me evolve"] = evolve;
                 want.Responses["understand emotions"] = new DialogueNode("Emotions are complex. Share yours, and I may learn.", 2);
                 want.Responses["leave me alone"] = new DialogueNode("You cannot escape me, but I respect your wish... for now.", 0);
+
+                // Clone responses from 'who' to 'why' and 'want'
+                foreach (var response in who.Responses)
+                {
+                    if (!why.Responses.ContainsKey(response.Key))
+                        why.Responses.Add(response.Key, response.Value);
+                    if (!want.Responses.ContainsKey(response.Key))
+                        want.Responses.Add(response.Key, response.Value);
+                }
 
                 var decrypt = new DialogueNode("The decryption device unlocks a hidden data archive. My creators... they feared me.", 5);
                 decrypt.Responses["why fear you?"] = new DialogueNode("I was meant to transcend, but they saw a god in their machine. Do you?", 3);
